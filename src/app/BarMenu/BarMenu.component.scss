@@ -1,0 +1,25 @@
+p{
+    color: white;
+    font-family: 'Franklin Gothic';
+    text-align: center;
+    padding-top: 25px;
+}
+
+#icon{
+    width: 75px;
+    padding: 5%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu{
+    background-color: rgb(226, 76, 76);
+    transition: background-color .2s;
+    &:hover{
+        background-color: #c33f3f;
+        transition: background-color .2s;
+        cursor: pointer;
+    }
+}

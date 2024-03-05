@@ -1,0 +1,53 @@
+{
+    "home": {
+        "banner": {
+            "title": "Habemus blog",
+            "subTitle": "Bienvenidos a mi blog, luego de un buen tiempo al fin se pudo terminar la pagina, aqui podras encontrar proyectos personales, informacion de mis videos y encontrar mi contacto :D",
+            "image": "https://pbs.twimg.com/media/Ftms4WQaAAARh7z.jpg"
+        }
+    },
+    "blog": [{
+        "banner": {
+            "title": "Entrada Test",
+            "subTitle": "",
+            "image": "https://pbs.twimg.com/media/Ftms4WQaAAARh7z.jpg"
+        }
+    }, {
+        "banner": {
+            "title": "Entrada Test 2",
+            "subTitle": "",
+            "image": "https://pbs.twimg.com/media/Ftms4WQaAAARh7z.jpg"
+        }
+    }, {
+        "banner": {
+            "title": "Entrada Test 3",
+            "subTitle": "Placeholder",
+            "image": "https://i.ytimg.com/vi/w2EEzogHcT4/maxresdefault.jpg"
+        }
+    }],
+    "projects": [{
+        "banner": {
+            "title": "Proyecto Test",
+            "subTitle": "",
+            "image": "https://pbs.twimg.com/media/Ftms4WQaAAARh7z.jpg"
+        }
+    }, {
+        "banner": {
+            "title": "Proyecto Test 2",
+            "subTitle": "",
+            "image": "https://pbs.twimg.com/media/Ftms4WQaAAARh7z.jpg"
+        }
+    }, {
+        "banner": {
+            "title": "Proyecto Test 3",
+            "subTitle": "",
+            "image": "https://pbs.twimg.com/media/Ftms4WQaAAARh7z.jpg"
+        }
+    }],
+    "habilities":{
+
+    },
+    "contact": {
+
+    }
+}

@@ -1,0 +1,38 @@
+<div class="container-fluid" style="color: white; background-color: #f57b7b;">
+    <div class="container">
+        <div class="row" style="padding-bottom: 20px;">
+            @switch(type()){
+                @case("blog"){
+                    <h1 style="margin-top: 20px;">Ultimas entradas del blog</h1>
+                    <p>
+                        Estas son las ultimas entradas del blog, con actualizaciones sobre los proyectos que se estan desarrollando, 
+                        esto no solo incluye proyectos relacionados a desarrollo de software, si no que cualquier proyecto general.
+                    </p>
+                    <div class="col-4"><entries [resources]="lastEntries()[0][0]"/></div>
+                    <div class="col-4"><entries [resources]="lastEntries()[0][1]"/></div>
+                    <div class="col-4"><entries [resources]="lastEntries()[0][2]"/></div>
+                }
+                @case("projects"){
+                    <h1 style="margin-top: 15px; margin-bottom: 20px;">Ultimos proyectos</h1>
+                    <p>
+                        Aqui van publicado todos los proyectos a nivel general que tengo, no van actualizaciones del blog, solo una
+                        premisa.
+                    </p>
+                    <div class="col-4"><entries [resources]="lastEntries()[1][0]"/></div>
+                    <div class="col-4"><entries [resources]="lastEntries()[1][1]"/></div>
+                    <div class="col-4"><entries [resources]="lastEntries()[1][2]"/></div>
+                }
+                @case("youtube"){
+                    <h1 style="margin-top: 15px; margin-bottom: 20px;">Canal de Youtube</h1>
+                    <p>
+                        Por ultimo, aqui van las entradas relacionadas al canal de Youtube, estas llevan a entradas del blog relacionadas a los
+                        videos publicados.
+                    </p>
+                    <div class="col-4"><entries [resources]="lastEntries()[1][0]"/></div>
+                    <div class="col-4"><entries [resources]="lastEntries()[1][1]"/></div>
+                    <div class="col-4"><entries [resources]="lastEntries()[1][2]"/></div>
+                }
+            }   
+        </div>
+    </div>
+</div>

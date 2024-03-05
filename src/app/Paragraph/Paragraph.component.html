@@ -1,0 +1,7 @@
+<div class="container-fluid">
+    <div class="row">
+        @if(type() == "left"){ <div class="col-2"> <img [src]="image()" alt="" style="width: 100%;"> </div> }
+        <div class="col"> <p>{{text()}}</p> </div>
+        @if(type() == "right"){ <div class="col-2"> <img [src]="image()" alt=""> </div> }
+    </div>
+</div>

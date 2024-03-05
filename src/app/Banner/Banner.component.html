@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col p-0 m-0" style="overflow: hidden; position: relative;">
+            @if (sceneJson()){
+                <canvas #canvas></canvas>
+            } @else {
+                <img [src]="image()" id="bannerImg" (dragstart)="false" style="position: relative; z-index: 1;">
+            }
+        </div>
+        <div class="col d-flex flex-column justify-content-center" style="background-image: linear-gradient(90deg,#fff, #c5ced3);">
+            <div style="margin: 10px;">
+                <h1>{{title()}}</h1>
+                <p style="color: #5d5d5d;">{{subtitle()}}</p>
+            </div>
+        </div>
+    </div>
+</div>
