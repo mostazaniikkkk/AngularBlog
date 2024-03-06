@@ -1,7 +1,7 @@
 from os import system, getcwd, chdir;
 
 #Preparando archivos
-commit = input("Ingrese el nombre del commit")
+commit = input("Ingrese el nombre del commit: ")
 webpage = f"{getcwd()}\\dist\\portafolio-web\\browser"
 
 system("git add .")
