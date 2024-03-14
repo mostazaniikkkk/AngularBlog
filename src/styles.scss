@@ -6,5 +6,19 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #f57b7b;
+    color: white;
   }
   
+button{
+  height: 40px;
+  border-width: 3px;
+  border-radius: 50px;
+  border-color: #bfdecc;
+  font-size: 15px;
+  transition: border-color .2s, font-size .2s;
+
+  &:hover{
+    border-color: #7fdb58;
+    font-size: 17px;
+  }
+}

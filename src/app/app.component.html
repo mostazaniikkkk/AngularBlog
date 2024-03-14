@@ -2,13 +2,26 @@
 
 @switch(window){
     @case("home"){
+        <div class="container-fluid">
+            <div class="row" style="background-image: url(https://concepto.de/wp-content/uploads/2015/03/software-1-e1550080087611-800x400.jpg); background-size: cover; background-position: 0px;">
+                <div class="col d-flex flex-column justify-content-center" style="text-align: center; color: white; height: 300px; background-color: rgba(87, 17, 17, 0.79);align-items: center;">
+                    <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #ffffff;">Software developer</h2>
+                    <h1 style="font-size: 50px;">Sergio Valle</h1>
+                    <a href="https://drive.usercontent.google.com/u/0/uc?id=11HwZgrD-f6nD47i2kK6t8DnPyUku8eRL&export=download" target="_blank"> 
+                        <button style="width: 160px;margin-top: 10px;">
+                            Descargar CV <img src="https://cdn-icons-png.flaticon.com/512/189/189249.png" style="width: 20px;">
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <MainMenu/>
+    }
+    @case("blog"){
         <banner [image]="home.banner.image" [title]="home.banner.title" [subtitle]="home.banner.subTitle"/>
         <news [type]="requiredNews[0]" [lastEntries]="entries"/> <hr>
         <news [type]="requiredNews[1]" [lastEntries]="entries"/> <hr>
         <news [type]="requiredNews[2]" [lastEntries]="entries"/>
-    }
-    @case("blog"){
-        <banner/>
     }
     @case("projects"){
 

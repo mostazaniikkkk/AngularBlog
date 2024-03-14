@@ -1,0 +1,39 @@
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-2" id="menu">Habilidades</div>
+            <div class="col-2" id="menu">Proyectos Destacados</div>
+            <div class="col-2" id="menu">Contacto</div>
+        </div>
+        <div class="row">
+            @switch(winController){
+                @case(0){
+                    <div class="col-4" id="section">
+                        <h6>Manejo intermedio</h6>
+                        <languaje [name]="python[0]" [img]="python[1]"/>
+                        <languaje [name]="cSharp[0]" [img]="cSharp[1]"/>
+                        <languaje [name]="unity[0]" [img]="unity[1]"/>
+                        <languaje [name]="html[0]" [img]="html[1]"/>
+                        <languaje [name]="js[0]" [img]="js[1]"/>
+                    </div>
+                    <div class="col-4" id="section">
+                        <h6>Manejo Basico</h6>
+                        <languaje [name]="angular[0]" [img]="angular[1]"/>
+                        <languaje [name]="sass[0]" [img]="sass[1]"/>
+                        <languaje [name]="ts[0]" [img]="ts[1]"/>
+                        <languaje [name]="lua[0]" [img]="lua[1]"/>
+                        <languaje [name]="java[0]" [img]="java[1]"/>
+                        <languaje [name]="sql[0]" [img]="sql[1]"/>
+                        <languaje [name]="node[0]" [img]="node[1]"/>
+                    </div>
+                    <div class="col-4" id="section">
+                        <h6>Aprendiendo</h6>
+                        <languaje [name]="zig[0]" [img]="zig[1]"/>
+                        <languaje [name]="pl[0]" [img]="pl[1]"/>
+                    </div>
+                    <div class="col-12" style="margin-top: 6px;"></div>
+                }
+            }
+        </div>
+    </div>
+</div>

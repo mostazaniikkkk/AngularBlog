@@ -8,6 +8,7 @@ import { Banner } from './Banner/Banner.component';
 import { Paragraph } from "./Paragraph/Paragraph.component";
 import { EndPage } from './EndPage/EndPage.component';
 import { News } from './News/News.component';
+import { MainMenu } from './MainMenu/MainMenu.component';
 
 //Servicios
 import { BannerService } from './Services/banner.service';
@@ -15,8 +16,9 @@ import { BannerService } from './Services/banner.service';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, BarMenu, Banner, Paragraph, EndPage, News],
+  imports: [RouterOutlet, BarMenu, Banner, Paragraph, EndPage, News, MainMenu],
   templateUrl: './app.component.html',
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   window = "home";

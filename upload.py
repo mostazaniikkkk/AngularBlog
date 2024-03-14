@@ -6,7 +6,7 @@ webpage = f"{getcwd()}\\dist\\portafolio-web\\browser"
 
 system("git add .")
 system(f'git commit -m "{commit}"')
-system("ng build")
+system("ng deploy --base-href=https://mostazaniikkkk.github.io/AngularBlog/")
 
 system("git push -u AngularBlog master")
 

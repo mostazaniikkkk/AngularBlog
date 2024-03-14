@@ -1,0 +1,39 @@
+div{
+    background-color: rgb(194, 54, 54);
+}
+
+h6{
+    margin-top: 5px;
+}
+
+#menu{
+    background-color: #a92d2d;
+    height: 50px;
+    transition: background-color .2s;
+    margin: 3px;
+    margin-top: 6px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        background-color: #cb4444;
+        transition: background-color .2s;
+        cursor: pointer;
+    }
+  }
+
+#section{
+    background-color: #a92d2d;
+    border-radius: 10px;
+    width: 32%;
+    margin: 3px;
+    margin-right: 6px;
+}
+
+#languaje{
+    width: 30px;
+    margin: 3px;
+}
+
